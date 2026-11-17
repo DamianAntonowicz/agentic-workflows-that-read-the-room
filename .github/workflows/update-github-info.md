@@ -15,6 +15,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit:
   web-fetch:
@@ -31,21 +32,22 @@ safe-outputs:
 
 # Update GitHub Info
 
-Update `site/content/github-info.md` for Mona using only the repository notes and the two official public sources below.
+Update `site/content/github-info.md` for Mona using only the repository notes and the public sources below.
 
 ## Sources
 
 1. Read and follow `notes/mona-notes.md`.
 2. Fetch `https://github.blog/latest/`.
 3. Fetch `https://github.blog/changelog/`.
+4. Fetch `https://awesome-copilot.github.com/workflows/`.
 
 ## Task
 
-- Reconcile the current file with the latest useful GitHub Blog and GitHub Changelog information.
+- Reconcile the current file with the latest useful GitHub Blog, GitHub Changelog, and Awesome Copilot workflows information.
 - Preserve Mona's established editorial angle, practical tone, and source-attribution requirements.
 - Update only `site/content/github-info.md`.
 - Keep summaries short and practical.
-- Mention the source URL or a clear source name whenever a change comes from the GitHub Blog or GitHub Changelog.
+- Mention the source URL or a clear source name whenever a change comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
 - Do not remove editorial context unless new source evidence makes it inaccurate.
 - Do not add unsupported claims, speculative dates, or personal commentary.
 - Do not include promotional or unrelated content.
